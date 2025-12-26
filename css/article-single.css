@@ -1,0 +1,34 @@
+body {
+  background: #050505;
+  color: #fff;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.article-page {
+  max-width: 900px;
+  margin: 80px auto;
+  padding: 0 20px;
+}
+
+.article-page h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.meta {
+  color: #00e0ff;
+  font-size: 14px;
+}
+
+.article-page img {
+  width: 100%;
+  border-radius: 16px;
+  margin: 30px 0;
+}
+
+.article-page p {
+  color: #ccc;
+  line-height: 1.9;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
