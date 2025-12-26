@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Main Page CSS File -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- pattren CSS File -->
+    <link rel="stylesheet" href="css/pattren.css">
+    <!-- Normalize CSS File -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" <link
+        rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+    <!-- Fonts Awesome -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="icon" href="imgs/blue-logo.svg">
+    <title>Larex</title>
+</head>
+
+<body>
+    <!-- From Uiverse.io by SelfMadeSystem -->
+    <div class="pattren"></div>
+    <div class="scrollbar"></div>
+    <!-- Start Header -->
+    <header class="feadin">
+        <div class="container">
+            <div class="parent">
+                <a href="index.html">
+                    <img src="imgs/logo.svg" alt="">
+                </a>
+                <div class="menu">
+                    <ul class="menu" id="menuList">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#service">Service</a></li>
+                        <li><a href="#otherlinks">Other Links</a></li>
+                    </ul>
+                </div>
+                <div class="menu-icon">
+                    <i class="fa-solid fa-bars" onclick="toggleMenu()"></i>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- End Header -->
+    <!-- Start Landing -->
+    <div class="landing feadin" id="home">
+        <div class="container">
+            <div class="parent">
+                <div class="content">
+                    <h1>We create the technology…</h1>
+                    <h2>that changes your reality</h2>
+                    <p>We offer cuting edge solutions in automation,<br>devolpment, Ai and more.</p>
+                    <a class="main-bt" href="#contact"><span>Contact Us</span></a>
+                </div>
+                <div class="imgs">
+                    <img src="imgs/landing-image.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Landing -->
+    <!-- Start About -->
+    <div class="about section-animation section-box " id="about">
+        <div class="container">
+            <h1 class="main-tit ">About</h1>
+            <div class="parent">
+                <p><span class="main">LA<span>R</span>EX is inspired by the ancienticity of Larsa, embodying the coint or wisdem and
+                    progress. <br>
+                    We are committed to driving innovation and shaping the technological landscape of the future.</p>
+                <img src="imgs/brain-about.svg" alt="">
+            </div>
+        </div>
+    </div>
+    <!-- End About -->
+    <!-- Start service -->
+    <div class="service feadin">
+        <div class="container">
+        <h1 class="main-tit ">Service</h1>
+        <div class="parent">
+            <div class="card option-card">
+                <img src="imgs/cloud.png" alt="" style="width:70px;opacity:.85">
+                <h3>AI & Bots</h3>
+                <p>Not just smart code. It’s a mind that evolves — built to understand, predict, and create solutions
+                    before you even ask.</p>
+                <!-- USE button (not anchor) and data attributes -->
+                <a class="main-bt learn-more" onclick="openModal()">Learn More</a>
+            </div>
+
+            <div class="card option-card">
+                <img src="imgs/engineering.png" alt="" style="width:70px;opacity:.85">
+                <h3>Automation</h3>
+                <p>Not just smart code. It’s a mind that evolves — built to understand, predict, and create solutions
+                    before you even ask.</p>
+                <a class="main-bt learn-more" onclick="openModal()">Learn More</a>
+            </div>
+
+            <div class="card option-card">
+                <img src="imgs/shield.png" alt="" style="width:70px;opacity:.85">
+                <h3>Cybersecurity</h3>
+                <p>Not just smart code. It’s a mind that evolves — built to understand, predict, and create solutions
+                    before you even ask.</p>
+                <a class="main-bt learn-more" onclick="openModal()">Learn More</a>
+            </div>
+
+            <div class="card option-card">
+                <img src="imgs/software-development.png" alt="" style="width:70px;opacity:.85">
+                <h3>Software</h3>
+                <p>Not just smart code. It’s a mind that evolves — built to understand, predict, and create solutions
+                    before you even ask.</p>
+                <a class="main-bt learn-more" onclick="openModal()">Learn More</a>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- End service -->
+    <div class="stats feadin section-box">
+        <div class="spikes"></div>
+        <h2 id="stats" class="main-tit">Our Awesome Stats</h2>
+        <div class="container text-color">
+            <div class="box option-card ">
+                <i class="far fa-user fa-2x fa-fw main-color"></i>
+                <span class="number">1</span>
+                <span class="text">Clients</span>
+            </div>
+            <div class="box option-card ">
+                <i class="far fa-code fa-2x fa-fw main-color"></i>
+                <span class="number">2</span>
+                <span class="text">Projects</span>
+            </div>
+            <div class="box option-card ">
+                <i class="far fa-globe-asia fa-2x fa-fw main-color"></i>
+                <span class="number">1</span>
+                <span class="text">Countries</span>
+            </div>
+            <div class="box option-card ">
+                <i class="far fa-money-bill-alt fa-2x fa-fw main-color"></i>
+                <span class="number">0</span>
+                <span class="text">Money</span>
+            </div>
+        </div>
+    </div>
+    <!-- ========== end stats ========== -->
+    <!-- ========== start footer ========== -->
+    <div class="footer">
+        <div class="container">
+            <p class="copyright">&copf; 2025 <span>LAREX</span> all right reserved</p>
+            <div class="social">
+                <ul class="links">
+                    <li>
+                        <a class="instgram" href="https://www.instagram.com/larex.iq/"><i
+                                class="fab fa-instagram instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fa-solid fa-x"></i></a>
+                    </li>
+                    <li>
+                        <a href=""><i class="fab fa-whatsapp whatsapp"></i></a>
+                    </li>
+                    <li>
+                        <a href="#" class="linkedin"><i class="fab fa-linkedin linkedin"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- ========== end footer ========== -->
+     <!-- modal -->
+      <!-- Modal -->
+<div id="choiceModal" class="modal">
+  <div class="modal-content">
+    <h2>Select Option</h2>
+
+    <div class="modal-buttons">
+      <a href="articles.html" class="modal-btn">Articles</a>
+      <a href="projects.html" class="modal-btn">Projects</a>
+    </div>
+
+    <span class="close">&times;</span>
+  </div>
+</div>
+
+    <!-- javascript -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
